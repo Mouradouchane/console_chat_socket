@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "server\server.vcxproj", "{6834A5EF-015D-446D-B399-F7A7288DE227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{18CCFD50-C012-4296-9674-36F54D08A757}"
+	ProjectSection(SolutionItems) = preProject
+		shared\logs.cpp = shared\logs.cpp
+		shared\winsock_functions.cpp = shared\winsock_functions.cpp
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "client\client.vcxproj", "{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6834A5EF-015D-446D-B399-F7A7288DE227}.Debug|x64.ActiveCfg = Debug|x64
+		{6834A5EF-015D-446D-B399-F7A7288DE227}.Debug|x64.Build.0 = Debug|x64
+		{6834A5EF-015D-446D-B399-F7A7288DE227}.Debug|x86.ActiveCfg = Debug|Win32
+		{6834A5EF-015D-446D-B399-F7A7288DE227}.Debug|x86.Build.0 = Debug|Win32
+		{6834A5EF-015D-446D-B399-F7A7288DE227}.Release|x64.ActiveCfg = Release|x64
+		{6834A5EF-015D-446D-B399-F7A7288DE227}.Release|x64.Build.0 = Release|x64
+		{6834A5EF-015D-446D-B399-F7A7288DE227}.Release|x86.ActiveCfg = Release|Win32
+		{6834A5EF-015D-446D-B399-F7A7288DE227}.Release|x86.Build.0 = Release|Win32
+		{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}.Debug|x64.ActiveCfg = Debug|x64
+		{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}.Debug|x64.Build.0 = Debug|x64
+		{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}.Debug|x86.Build.0 = Debug|Win32
+		{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}.Release|x64.ActiveCfg = Release|x64
+		{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}.Release|x64.Build.0 = Release|x64
+		{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}.Release|x86.ActiveCfg = Release|Win32
+		{D2C5A137-C2AE-4C96-8B5C-5288FDBA6F66}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {761B75FD-BBC8-44E1-985A-A24A6B354828}
+	EndGlobalSection
+EndGlobal
